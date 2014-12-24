@@ -1,0 +1,13 @@
+﻿<Window x:Class="WPF_Dispatcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <ProgressBar x:Name="pb_test" Maximum="100" />
+        <Button x:Name="btn_test" Grid.Row="1" Content="Test" />
+    </Grid>
+</Window>
