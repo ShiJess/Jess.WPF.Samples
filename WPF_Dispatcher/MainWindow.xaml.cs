@@ -33,8 +33,15 @@ namespace WPF_Dispatcher
             th.Start();
         }
 
+        /// <summary>
+        /// 委托
+        /// </summary>
+        /// <param name="i"></param>
         private delegate void UpdateProgressBarDelegate(int i);
 
+        /// <summary>
+        /// 进度条更新
+        /// </summary>
         void UpdateProgressBar()
         {
             for (int i = 0; i <= 100; i++)
