@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Dispatcher", "WPF_Dispatcher\WPF_Dispatcher.csproj", "{CBBEA621-EA6B-4AEE-A946-3741D8CB0FDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Step1)WPF_Dispatcher", "WPF_Dispatcher\(Step1)WPF_Dispatcher.csproj", "{CBBEA621-EA6B-4AEE-A946-3741D8CB0FDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_BackgroundWorker", "WPF_Backgroundworker\WPF_BackgroundWorker.csproj", "{B3BED48E-D7A1-41AD-BF70-BF95D2452095}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Step2)WPF_BackgroundWorker", "WPF_Backgroundworker\(Step2)WPF_BackgroundWorker.csproj", "{B3BED48E-D7A1-41AD-BF70-BF95D2452095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
