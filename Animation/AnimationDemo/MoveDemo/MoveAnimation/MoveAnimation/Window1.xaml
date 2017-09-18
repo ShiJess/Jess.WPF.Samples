@@ -1,0 +1,9 @@
+﻿<Window x:Class="MoveAnimation.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MoveAnimation" Height="364" Width="425"
+    >
+    <Grid>
+      <Button  Name="button1" Width ="100" Height ="50" HorizontalAlignment="Left" VerticalAlignment="Top">test btn</Button>       
+    </Grid>
+</Window>

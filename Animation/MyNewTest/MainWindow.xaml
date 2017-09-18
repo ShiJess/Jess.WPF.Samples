@@ -1,0 +1,45 @@
+﻿<Window x:Class="MyNewTest.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+          xmlns:MyNewTest="clr-namespace:MyNewTest"
+         xmlns:my="clr-namespace:MyNewTest"
+        Title="Window1" Height="323.359" Width="803.201">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1" AutoReverse="True" RepeatBehavior="Forever" FillBehavior="Stop" Completed="storyboard_imgs_Completed">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="288"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="textBox1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button1">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Name="grid_main" Margin="10,10,2,2">
+        <Canvas HorizontalAlignment="Left" Width="783" Margin="-4,192,0,-192">
+            <Button Content="Button" Height="35" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="92" Canvas.Left="464" Canvas.Top="30" />
+            <TextBlock Text="Come On Baby" FontSize="10" Name="textBox1" RenderTransformOrigin="0.5,0.5" Canvas.Top="-34" Width="298" Canvas.Left="72" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="10" Y="100"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Canvas>
+
+        <my:ScrollintTextControl Content="12345789" Height="32" HorizontalAlignment="Left" Margin="5,192,0,-138" x:Name="scrollingTextControl1" 
+                                 VerticalAlignment="Top" Width="204" Foreground="Black"></my:ScrollintTextControl>
+
+    </Grid>
+</Window>
