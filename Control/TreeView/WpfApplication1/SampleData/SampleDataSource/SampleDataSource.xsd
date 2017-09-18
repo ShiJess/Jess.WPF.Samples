@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+      *********    请勿修改此文件     *********
+      此文件由设计工具再生成。更改
+      此文件可能会导致错误。
+-->
+<xs:schema xmlns:blend="http://schemas.microsoft.com/expression/blend/2008" xmlns:tns="Expression.Blend.SampleData.SampleDataSource" targetNamespace="Expression.Blend.SampleData.SampleDataSource" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SampleDataSource" type="tns:SampleDataSource" />
+  <xs:complexType name="SampleDataSource">
+    <xs:sequence>
+      <xs:element name="Collection" type="tns:ItemCollection" />
+      <xs:element name="Collection1" type="tns:Collection1Item1Collection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ItemCollection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Item" type="tns:Item" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Item">
+    <xs:sequence>
+      <xs:element name="Collection" type="tns:CollectionItemCollection" />
+    </xs:sequence>
+    <xs:attribute name="Property1" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CollectionItemCollection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="CollectionItem" type="tns:CollectionItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollectionItem">
+    <xs:sequence>
+      <xs:element name="Collection" type="tns:CollectionItem1Collection" />
+    </xs:sequence>
+    <xs:attribute name="Property1" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CollectionItem1Collection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="CollectionItem1" type="tns:CollectionItem1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CollectionItem1">
+    <xs:attribute name="Property1" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Collection1Item1Collection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Collection1Item1" type="tns:Collection1Item1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Collection1Item1">
+    <xs:attribute name="qq" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Collection1Item">
+    <xs:sequence>
+      <xs:element name="Collection1" type="tns:Collection1ItemCollection" />
+    </xs:sequence>
+    <xs:attribute name="Property1" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Collection1ItemCollection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Collection1Item" type="tns:Collection1Item" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

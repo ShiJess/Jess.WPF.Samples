@@ -1,0 +1,72 @@
+﻿<Window x:Class="MyListView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="lvi" TargetType="{x:Type ListViewItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                        <Border Name="BD_Collector" CornerRadius="5" Background="DarkSeaGreen" Width="auto" Height="40" Margin="5">
+                            <Grid Width="400">
+                                <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">-->
+
+                                <!--<TextBlock Text="{Binding Path=other}" TextAlignment="Center" Name="image" Visibility="Hidden" Height="0"></TextBlock>-->
+                                <!--<Image Source="{Binding ElementName=image,Path=Text,Mode=OneWay}" Height="100" Width="170"></Image>-->
+                                <!--<TextBlock Text="{Binding Path=title}" TextAlignment="Center" TextWrapping="Wrap"></TextBlock>
+                                            <TextBlock Text="{Binding Path=ID}" Visibility="Hidden" Name="lvID" Width="500"></TextBlock>-->
+                                <!--</StackPanel>-->
+                                <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                            <TextBlock Text="{Binding Path=fbsj}" TextAlignment="Center"></TextBlock>
+                                        </StackPanel>-->
+                                <DockPanel>
+                                    <TextBlock Text="{Binding Path=title}" TextAlignment="Center" TextWrapping="Wrap" DockPanel.Dock="Left"></TextBlock>
+                                    <!--<TextBlock Text="{Binding Path=ID}" Visibility="Hidden" Name="lvID" Width="500" DockPanel.Dock="Left"></TextBlock>-->
+
+                                    <TextBlock Text="{Binding Path=fbsj}" TextAlignment="Right" DockPanel.Dock="Right"></TextBlock>
+                                </DockPanel>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="BD_Collector" Property="Background" Value="DarkGreen" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <ListView Name="LV_Test" Background="{x:Null}" ItemsSource="{Binding}" Tag="网送法规" ItemContainerStyle="{StaticResource lvi}" Margin="58,39,37,105">
+            <ListView.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="10" BorderBrush="RoyalBlue" BorderThickness="5">
+                        <Grid Margin="50,10,10,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <!--<HeaderedContentControl HorizontalAlignment="Left">-->
+                                    <TextBlock Text="{TemplateBinding Tag}" TextAlignment="Center" FontSize="18" Margin="10,0,0,0"></TextBlock>
+                                <!--</HeaderedContentControl>-->
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                                    <ItemsPresenter />
+                                </ScrollViewer>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </ListView.Template>
+            
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+    </Grid>
+</Window>

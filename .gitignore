@@ -159,3 +159,6 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/MVVM/mvvmvalidation/Examples/Lib
+/MVVM/mvvmvalidation/Examples/Lib
+/MVVM/mvvmvalidation/Output/lib

@@ -1,0 +1,25 @@
+﻿<Window x:Class="WebBrowserOnTransparentWindow.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    AllowsTransparency="True" WindowStyle="None" Opacity="{Binding ElementName=_opacitySlider, Path=Value}" ResizeMode="CanResizeWithGrip"
+    Title="Window1" Height="600" Width="700">
+    <!---->
+    <Border BorderBrush="#101040" BorderThickness="2">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <Button Margin="5" Width="180" Name="_showOtherButton">Button</Button>
+            <TextBlock>Try moving and resizing this window. See the effect of Opacity &lt; 1.</TextBlock>
+            <TextBlock Margin="30 10 0 0">Web Browser control:</TextBlock>
+        </StackPanel>
+        
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="10 0 0 0">
+            <TextBlock>Opacity</TextBlock>
+            <Slider Name="_opacitySlider" Minimum="0.05" Maximum="1" SmallChange="0.01" Value="0.7"  Height="30" Width="150" Margin="5 -2 5 0"  />
+            <TextBlock Text="{Binding ElementName=_opacitySlider, Path=Value}" />
+        </StackPanel>
+        
+        <Border DockPanel.Dock="Top" Margin="30 10 30 20"   
+           Name="_webBrowserPlacementTarget" BorderBrush="Blue" BorderThickness="2"  />
+    </DockPanel>
+    </Border>
+</Window>

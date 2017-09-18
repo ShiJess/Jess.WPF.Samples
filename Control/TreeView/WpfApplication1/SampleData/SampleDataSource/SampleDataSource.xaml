@@ -1,0 +1,361 @@
+﻿<!--
+      *********    请勿修改此文件     *********
+      此文件由设计工具再生成。更改
+      此文件可能会导致错误。
+-->
+<SampleData:SampleDataSource xmlns:SampleData="clr-namespace:Expression.Blend.SampleData.SampleDataSource">
+	<SampleData:SampleDataSource.Collection>
+		<SampleData:Item Property1="Aliquam cras">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Nam maecenas">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Class aliquam cras nam"/>
+						<SampleData:CollectionItem1 Property1="Aenean sed"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Class curae">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Maecenas curae"/>
+						<SampleData:CollectionItem1 Property1="Praesent dis duis"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Aenean aliquam mauris sed">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Accumsan est nunc donec"/>
+						<SampleData:CollectionItem1 Property1="Etiam integer fusce"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nullam aptent">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Quisque vivamus"/>
+						<SampleData:CollectionItem1 Property1="Lorem morbi amet"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Praesent auctor donec integer">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Aliquam ante aliquet arcu"/>
+						<SampleData:CollectionItem1 Property1="Mauris bibendum dictumst"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Class maecenas praesent integer">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Dis accumsan bibendum quisque">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nulla diam"/>
+						<SampleData:CollectionItem1 Property1="Nullam eget aptent auctor"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Etiam dictumst">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Blandit commodo elit eleifend"/>
+						<SampleData:CollectionItem1 Property1="Conubia proin congue"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Eleifend cras">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Hac cursus"/>
+						<SampleData:CollectionItem1 Property1="Cubilia enim"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Est congue">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Erat leo"/>
+						<SampleData:CollectionItem1 Property1="Mus augue facilisi dapibus"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Cursus duis vivamus">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Dolor egestas nec fames"/>
+						<SampleData:CollectionItem1 Property1="Felis faucibus euismod"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Quisque curae nam">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Hac fusce">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Habitant ipsum justo"/>
+						<SampleData:CollectionItem1 Property1="Inceptos feugiat non"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Dictum leo">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Lacus interdum gravida lobortis"/>
+						<SampleData:CollectionItem1 Property1="Dictum per eros"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Lectus libero mus">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nascetur sed pharetra iaculis"/>
+						<SampleData:CollectionItem1 Property1="Sem sit lectus libero"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nunc nec lorem">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Placerat ligula"/>
+						<SampleData:CollectionItem1 Property1="Pulvinar litora"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Morbi non">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Lorem luctus"/>
+						<SampleData:CollectionItem1 Property1="Vel magnis magna"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Donec accumsan vivamus">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Nulla proin">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nam nibh lacinia massa"/>
+						<SampleData:CollectionItem1 Property1="Sed metus dis mattis"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Amet facilisi per">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Morbi mauris neque netus"/>
+						<SampleData:CollectionItem1 Property1="Mollis nisi"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Ante ligula sed">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Montes nisl laoreet natoque"/>
+						<SampleData:CollectionItem1 Property1="Nulla posuere porta nunc"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Augue faucibus habitant">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Odio purus orci sagittis"/>
+						<SampleData:CollectionItem1 Property1="Potenti nostra risus pede"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Aliquam litora dolor fames">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Velit vitae"/>
+						<SampleData:CollectionItem1 Property1="Class quam"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Bibendum dictumst">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Luctus aliquet">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Pretium quis urna"/>
+						<SampleData:CollectionItem1 Property1="Rhoncus senectus sodales sociosqu"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Blandit inceptos">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Est viverra ornare"/>
+						<SampleData:CollectionItem1 Property1="Hac leo cras duis"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Commodo felis">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nunc amet aliquam integer"/>
+						<SampleData:CollectionItem1 Property1="Quisque vivamus"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Interdum magnis conubia sem">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Suscipit aliquam"/>
+						<SampleData:CollectionItem1 Property1="Mus curae nec"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Ipsum arcu">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Non platea donec ante"/>
+						<SampleData:CollectionItem1 Property1="Arcu per"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Aliquam eleifend aenean duis">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Lobortis justo">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Torquent sed diam primis"/>
+						<SampleData:CollectionItem1 Property1="Eget sem ultrices"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Mattis sit">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Vehicula rutrum volutpat etiam"/>
+						<SampleData:CollectionItem1 Property1="Sapien aliquet elit sit"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Lacus mauris cubilia vel">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Blandit semper"/>
+						<SampleData:CollectionItem1 Property1="Enim vel fusce"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Lorem dapibus magna">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Commodo conubia sociis"/>
+						<SampleData:CollectionItem1 Property1="Erat nam eros"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nam massa">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Cubilia dapibus maecenas nibh"/>
+						<SampleData:CollectionItem1 Property1="Taciti egestas lorem morbi"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Facilisi aliquet etiam">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Nascetur diam eget sed">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nisi sed"/>
+						<SampleData:CollectionItem1 Property1="Dis euismod est nisl"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Metus egestas mollis elit">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Praesent feugiat hac"/>
+						<SampleData:CollectionItem1 Property1="Gravida tellus leo"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Dis montes morbi enim">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nulla nunc mus proin"/>
+						<SampleData:CollectionItem1 Property1="Nec non per"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nostra ornare euismod neque">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Iaculis augue"/>
+						<SampleData:CollectionItem1 Property1="Odio dolor accumsan"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Pharetra netus feugiat">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Tempor sed orci"/>
+						<SampleData:CollectionItem1 Property1="Pede sem fames"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Mauris nullam aptent">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Gravida placerat iaculis platea">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Felis tempus quam"/>
+						<SampleData:CollectionItem1 Property1="Quis sit vel"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Pulvinar lacinia">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Tortor lacinia urna"/>
+						<SampleData:CollectionItem1 Property1="Bibendum turpis dictumst varius"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nulla erat">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Eleifend laoreet"/>
+						<SampleData:CollectionItem1 Property1="Facilisi faucibus aenean"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Sagittis eros senectus sociosqu">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Mauris ipsum"/>
+						<SampleData:CollectionItem1 Property1="Nam justo natoque nullam"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nibh laoreet primis">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Sed habitant aptent dis"/>
+						<SampleData:CollectionItem1 Property1="Cras est inceptos"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Sed fusce lorem">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Natoque est">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Auctor congue cursus lacus"/>
+						<SampleData:CollectionItem1 Property1="Hac interdum leo"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Posuere porta purus">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Duis lobortis"/>
+						<SampleData:CollectionItem1 Property1="Posuere nunc nascetur amet"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Risus suscipit hac potenti">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Ante lorem dictum"/>
+						<SampleData:CollectionItem1 Property1="Lectus arcu libero"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Pretium nisi torquent ultrices">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Diam potenti ligula litora"/>
+						<SampleData:CollectionItem1 Property1="Eget mus"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Vehicula volutpat">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Pharetra luctus"/>
+						<SampleData:CollectionItem1 Property1="Nec non magnis"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+		<SampleData:Item Property1="Nunc amet">
+			<SampleData:Item.Collection>
+				<SampleData:CollectionItem Property1="Rutrum sapien nisl rhoncus">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Mattis mauris elit"/>
+						<SampleData:CollectionItem1 Property1="Per placerat"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Nunc semper">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Enim sed"/>
+						<SampleData:CollectionItem1 Property1="Magna mollis sem"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Odio sociis">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Pretium massa rhoncus sodales"/>
+						<SampleData:CollectionItem1 Property1="Pulvinar montes metus"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Velit orci maecenas">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Morbi viverra erat"/>
+						<SampleData:CollectionItem1 Property1="Sagittis senectus"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+				<SampleData:CollectionItem Property1="Taciti sodales praesent pede">
+					<SampleData:CollectionItem.Collection>
+						<SampleData:CollectionItem1 Property1="Nostra aliquam"/>
+						<SampleData:CollectionItem1 Property1="Sit vel"/>
+					</SampleData:CollectionItem.Collection>
+				</SampleData:CollectionItem>
+			</SampleData:Item.Collection>
+		</SampleData:Item>
+	</SampleData:SampleDataSource.Collection>
+	<SampleData:SampleDataSource.Collection1>
+		<SampleData:Collection1Item1 qq="Class curae cras aenean"/>
+		<SampleData:Collection1Item1 qq="Duis maecenas donec"/>
+		<SampleData:Collection1Item1 qq="Nam aliquam praesent"/>
+		<SampleData:Collection1Item1 qq="Integer nunc amet etiam"/>
+		<SampleData:Collection1Item1 qq="Accumsan mauris ante quisque"/>
+		<SampleData:Collection1Item1 qq="Sed fusce lorem bibendum"/>
+		<SampleData:Collection1Item1 qq="Dis est vivamus nullam"/>
+		<SampleData:Collection1Item1 qq="Aptent auctor"/>
+		<SampleData:Collection1Item1 qq="Aliquam arcu"/>
+		<SampleData:Collection1Item1 qq="Aliquet blandit"/>
+	</SampleData:SampleDataSource.Collection1>
+</SampleData:SampleDataSource>

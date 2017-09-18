@@ -1,0 +1,17 @@
+﻿<Window x:Class="chapter6_3_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel.Resources>
+            <sys:String x:Key="myString">
+                aaaaaaaaaaaaaaaaaaabbbbbbbbbbb
+            </sys:String>
+        </StackPanel.Resources>
+        
+        <TextBlock x:Name="textBlock1" TextWrapping="Wrap"
+                   Text="{Binding Path=.,Source={StaticResource ResourceKey=myString}}" FontSize="16"
+                   Margin="5"/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_基础概念介绍", "Day1_基础概念介绍\Day1_基础概念介绍.csproj", "{64BB79EA-D803-4389-BB91-D359BAFB8C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_XAML详解", "Day2_XAML详解\Day2_XAML详解.csproj", "{FE963367-8B12-4609-8619-4DF4C631D8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_样式", "Day3_样式\Day3_样式.csproj", "{6A6BD5C7-6318-4687-B53F-14C1056A406F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4_模板", "Day4_模板\Day4_模板.csproj", "{58FB7A60-4684-4929-90AE-7E07580634EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5_数据绑定", "Day5_数据绑定\Day5_数据绑定.csproj", "{271B1EC0-7863-456A-B232-9117E431FFAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64BB79EA-D803-4389-BB91-D359BAFB8C1D}.Debug|x86.ActiveCfg = Debug|x86
+		{64BB79EA-D803-4389-BB91-D359BAFB8C1D}.Debug|x86.Build.0 = Debug|x86
+		{64BB79EA-D803-4389-BB91-D359BAFB8C1D}.Release|x86.ActiveCfg = Release|x86
+		{64BB79EA-D803-4389-BB91-D359BAFB8C1D}.Release|x86.Build.0 = Release|x86
+		{FE963367-8B12-4609-8619-4DF4C631D8EB}.Debug|x86.ActiveCfg = Debug|x86
+		{FE963367-8B12-4609-8619-4DF4C631D8EB}.Debug|x86.Build.0 = Debug|x86
+		{FE963367-8B12-4609-8619-4DF4C631D8EB}.Release|x86.ActiveCfg = Release|x86
+		{FE963367-8B12-4609-8619-4DF4C631D8EB}.Release|x86.Build.0 = Release|x86
+		{6A6BD5C7-6318-4687-B53F-14C1056A406F}.Debug|x86.ActiveCfg = Debug|x86
+		{6A6BD5C7-6318-4687-B53F-14C1056A406F}.Debug|x86.Build.0 = Debug|x86
+		{6A6BD5C7-6318-4687-B53F-14C1056A406F}.Release|x86.ActiveCfg = Release|x86
+		{6A6BD5C7-6318-4687-B53F-14C1056A406F}.Release|x86.Build.0 = Release|x86
+		{58FB7A60-4684-4929-90AE-7E07580634EB}.Debug|x86.ActiveCfg = Debug|x86
+		{58FB7A60-4684-4929-90AE-7E07580634EB}.Debug|x86.Build.0 = Debug|x86
+		{58FB7A60-4684-4929-90AE-7E07580634EB}.Release|x86.ActiveCfg = Release|x86
+		{58FB7A60-4684-4929-90AE-7E07580634EB}.Release|x86.Build.0 = Release|x86
+		{271B1EC0-7863-456A-B232-9117E431FFAC}.Debug|x86.ActiveCfg = Debug|x86
+		{271B1EC0-7863-456A-B232-9117E431FFAC}.Debug|x86.Build.0 = Debug|x86
+		{271B1EC0-7863-456A-B232-9117E431FFAC}.Release|x86.ActiveCfg = Release|x86
+		{271B1EC0-7863-456A-B232-9117E431FFAC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

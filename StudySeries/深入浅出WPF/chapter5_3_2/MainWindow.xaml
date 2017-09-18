@@ -1,0 +1,13 @@
+﻿<Window x:Class="chapter5_3_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <GroupBox Margin="10" BorderBrush="Gray">
+            <GroupBox.Header>
+                <Image Source="Resources/chapter5_3_2.ico" Width="20" Height="20"/>
+            </GroupBox.Header>
+            <TextBlock TextWrapping="WrapWithOverflow" Margin="10" Text="一二一二一二一二一二一二一二一二一"/>
+        </GroupBox>
+    </Grid>
+</Window>

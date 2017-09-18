@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="mgen_mvvmDlg.UserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:loc="clr-namespace:mgen_mvvmDlg"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             loc:DialogChrome.Title="设置用户名"
+             loc:DialogChrome.SizeToContent="Height">
+    <Grid>
+        <StackPanel>
+            <TextBlock>设置用户名</TextBlock>
+            <TextBox Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

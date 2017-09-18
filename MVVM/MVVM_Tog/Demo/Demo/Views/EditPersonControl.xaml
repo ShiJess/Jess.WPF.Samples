@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="Demo.EditPersonControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:toolkitInput="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+             xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+             Width="300"
+             Height="200">
+    <Grid x:Name="LayoutRoot"
+          Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="80*" />
+            <ColumnDefinition  Width="220*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Height="23"
+                   HorizontalAlignment="Left"
+                   Margin="12,12,0,0"
+                   Text="Name:"
+                   VerticalAlignment="Top"
+                   Width="60"
+                   TextAlignment="Right" />
+        <TextBlock Grid.Row="1"
+                   Height="23"
+                   HorizontalAlignment="Left"
+                   Margin="12,9,0,0"
+                   Text="Age:"
+                   VerticalAlignment="Top"
+                   Width="60"
+                   TextAlignment="Right" />
+        <TextBlock Grid.Row="2"
+                   Height="23"
+                   HorizontalAlignment="Left"
+                   Margin="12,9,0,0"
+                   Text="Hire Date:"
+                   VerticalAlignment="Top"
+                   Width="60"
+                   TextAlignment="Right" />
+        <TextBox Grid.Column="1"
+                 Height="23"
+                 HorizontalAlignment="Left"
+                 Margin="14,8,0,0"
+                 VerticalAlignment="Top"
+                 Width="194"
+                 Text="{Binding Path=Name, Mode=TwoWay}" />
+        <toolkitInput:NumericUpDown Grid.Row="1"
+                                    Grid.Column="1"
+                                    Height="23"
+                                    Width="194"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    Margin="14,5,0,0"
+                                    IsEditable="True"
+                                    Value="{Binding Path=Age, Mode=TwoWay}" />
+        <controls:DatePicker Grid.Column="1"
+                             Grid.Row="2"
+                             Height="23"
+                             HorizontalAlignment="Left"
+                             Margin="14,5,0,0"
+                             VerticalAlignment="Top"
+                             Width="194"
+                             DisplayDate="{Binding Path=HireDate}"
+                             SelectedDateFormat="Short"
+                             SelectedDate="{Binding Path=HireDate, Mode=TwoWay}" />
+        <CheckBox Grid.Column="1"
+                  Grid.Row="3"
+                  Height="23"
+                  HorizontalAlignment="Left"
+                  Margin="14,5,0,0"
+                  VerticalAlignment="Top"
+                  Width="194"
+                  Content="IsSingle"
+                  IsChecked="{Binding Path=IsSingle, Mode=TwoWay}"/>
+        <Grid Grid.Column="1"
+              Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110*" />
+                <ColumnDefinition Width="110*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="OK"
+                    Margin="14,7,7,7"
+                    x:Name="btnOk"
+                    Click="btnOkClick"/>
+            <Button Content="Cancel"
+                    Margin="7,7,12,7"
+                    Grid.Column="1"
+                    x:Name="btnCancel"
+                    Click="btnCancelClick"/>
+        </Grid>
+    </Grid>
+</UserControl>

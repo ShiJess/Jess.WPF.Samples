@@ -1,0 +1,21 @@
+﻿<Window x:Class="mgen_mvvmDlg.DialogChrome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ShowInTaskbar="False"
+        ResizeMode="CanResizeWithGrip"
+        Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"
+        Title="DialogChrome" Height="300" Width="300">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="MinWidth" Value="60"/>
+                    <Setter Property="Margin" Value="5"/>
+                </Style>
+            </StackPanel.Resources>
+            <Button IsDefault="True" Click="Button_Click_1" Command="{Binding OkCommand}">确定</Button>
+            <Button IsCancel="True">取消</Button>
+        </StackPanel>
+        <Grid Name="contentGrid" Margin="10 10 10 0"/>
+    </DockPanel>
+</Window>

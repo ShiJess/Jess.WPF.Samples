@@ -1,0 +1,95 @@
+﻿<Window x:Class="Day3_样式.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Green" />
+            <Setter Property="FontSize" Value="25" />
+        </Style>
+        <Style TargetType="Button" x:Key="mystyle">
+            <Setter Property="Background" Value="Yellow" />
+        </Style>
+        <Style TargetType="ContentControl" x:Key="myctrlstyle">
+            <Setter Property="Background" Value="Blue" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        
+        <Style TargetType="Button" x:Key="basestyle">
+            <Setter Property="Background" Value="Gray" />
+        </Style>
+        <Style TargetType="Button" x:Key="childstyle" BasedOn="{StaticResource ResourceKey=basestyle}">
+            <Setter Property="FontSize" Value="22" />
+        </Style>
+
+        <Style TargetType="Label" x:Key="firststyle">
+            <Setter Property="Background" Value="BurlyWood" />
+        </Style>
+        <Style TargetType="Label" x:Key="secondstyle">
+            <Setter Property="Background" Value="Gray" />
+        </Style>
+        
+        <Style TargetType="Button" x:Key="triggerstyle">
+            <Setter Property="Background" Value="Red" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black" />
+                    <Setter Property="FontSize" Value="25" />
+                </Trigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True" />
+                        <Condition Property="IsPressed" Value="True" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="Blue" />
+                    <Setter Property="Foreground" Value="White" />
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        
+        <Style TargetType="RadioButton" x:Key="datatriggerstyle">
+            <Setter Property="Background" Value="Blue" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=radio,Path=IsChecked}" Value="True">
+                    <Setter Property="FontSize" Value="20" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*" />
+            <RowDefinition Height="52*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="48*" />
+            <RowDefinition Height="90*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*" />
+            <ColumnDefinition Width="79*" />
+            <ColumnDefinition Width="82*" />
+            <ColumnDefinition Width="269*" />
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Column="0" Grid.Row="0" Content="史" />
+        <Button Grid.Column="1" Grid.Row="0" Style="{StaticResource ResourceKey=mystyle}" Content="史" />
+        <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource ResourceKey=myctrlstyle}" Content="史" />
+        
+        <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource ResourceKey=childstyle}" Content="杰"/>
+        
+        <Button Grid.Row="1" Grid.Column="1" Content="杰">
+            <Button.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Yellow"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Label Grid.Row="1" Grid.Column="2" Content="杰" Style="{StaticResource ResourceKey=firststyle}">        </Label>
+
+        <Button Grid.Row="2" Grid.Column="0" Content="史" Style="{StaticResource ResourceKey=triggerstyle}" />
+        
+        <RadioButton Grid.Row="3" Grid.Column="0" Style="{StaticResource ResourceKey=datatriggerstyle}" Name="radio" Content="变20号字体" /> 
+    </Grid>
+</Window>

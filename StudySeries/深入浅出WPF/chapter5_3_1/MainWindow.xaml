@@ -1,0 +1,15 @@
+﻿<Window x:Class="chapter5_3_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Margin="5">
+            <TextBlock Text="Hello"/>
+        </Button>
+        <Button Margin="5">
+            <!--<Image Source= "E:\\ProjectFiles\\BooksReader\\WPF_Windows Presentation Foundation\\Test\\深入浅出WPF\\chapter5_3_1\\Resources\\chapter5_3_1.ico" Width="30" Height="30" />-->
+            <!--<Image x:Name="myimage" Width="30" Height="30" />-->
+            <Image Source= "Resources/chapter5_3_1.ico" Width="30" Height="30" />
+        </Button>
+    </StackPanel>
+</Window>
