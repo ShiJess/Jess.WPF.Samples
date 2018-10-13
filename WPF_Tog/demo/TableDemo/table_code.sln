@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "table_code", "table_code.csproj", "{06E1E13B-A1D0-4476-B52D-7F340E34326B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Debug|x86.ActiveCfg = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Debug|x86.Build.0 = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Release|Mixed Platforms.ActiveCfg = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Release|Mixed Platforms.Build.0 = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Release|x86.ActiveCfg = Debug|x86
+		{06E1E13B-A1D0-4476-B52D-7F340E34326B}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F5E7EFE-DEBB-475B-8EF9-F5519153958C}
+	EndGlobalSection
+EndGlobal
