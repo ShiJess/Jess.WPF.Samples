@@ -78,12 +78,6 @@
 							<RowDefinition Height="0.69*"/>
 							<RowDefinition Height="0.31*"/>
 						</Grid.RowDefinitions>
-						<VisualStateManager.VisualStateGroups>
-							<VisualStateGroup x:Name="FocusStates">
-								<VisualState x:Name="Unfocused"/>
-								<VisualState x:Name="Focused"/>
-							</VisualStateGroup>
-						</VisualStateManager.VisualStateGroups>
 						<Border x:Name="Bd" BorderThickness="0" CornerRadius="3" BorderBrush="Black" Margin="0" Grid.RowSpan="2" Visibility="Hidden">
 							<Border.Background>
 								<ImageBrush ImageSource="skin/ico/toolbar_pushed.png"/>
@@ -142,11 +136,5 @@
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>
-	</Style>
-	<Style x:Key="TabItemStyle1" TargetType="{x:Type TabItem}">
-		<Setter Property="Foreground" Value="Black"/>
-		<Setter Property="Padding" Value="6,6,6,6"/>
-		<Setter Property="BorderBrush" Value="{StaticResource TabControlNormalBorderBrush}"/>
-		<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
 	</Style>
 </ResourceDictionary>

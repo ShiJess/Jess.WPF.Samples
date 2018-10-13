@@ -41,7 +41,6 @@
     <ApplicationIcon>360.ICO</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Expression.Drawing" />
     <Reference Include="PresentationFramework.Aero" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -62,7 +61,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="JKingSafe.xaml">
+    <Page Include="ButtonResource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -70,9 +73,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="JKingSafe.xaml.cs">
-      <DependentUpon>JKingSafe.xaml</DependentUpon>
+    <Compile Include="FullScreenManager.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuItemStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SysButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="TabControlStyle.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -103,6 +116,8 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="skin\Button\btbg.png" />
+    <Resource Include="skin\Button\btfg.png" />
     <Resource Include="skin\Button\M.png" />
     <Resource Include="skin\Button\MAX.png" />
     <Resource Include="skin\Button\MNI.png" />
@@ -127,9 +142,8 @@
     <Resource Include="skin\csbt\AavanceTools_pic_shoujitijian.png" />
     <Resource Include="skin\csbt\AdvanceTools_NetSpeed.png" />
     <Resource Include="skin\csbt\AdvanceTool_pic_360LuDaShi.png" />
+    <Resource Include="skin\frame.jpg" />
     <Resource Include="skin\ico\360DiagnoseScan_413.png" />
-    <Resource Include="skin\ico\chrome64.png" />
-    <Resource Include="skin\ico\google-play64.png" />
     <Resource Include="skin\ico\ico_AdvTools.png" />
     <Resource Include="skin\ico\ico_diannaomenzhen.png" />
     <Resource Include="skin\ico\ico_dsmain.png" />
@@ -141,13 +155,9 @@
     <Resource Include="skin\ico\ico_SysRepair.png" />
     <Resource Include="skin\ico\ico_TraceCleaner.png" />
     <Resource Include="skin\ico\ico_VulRepair.png" />
-    <Resource Include="skin\ico\path64.png" />
-    <Resource Include="skin\ico\play-music64.png" />
-    <Resource Include="skin\ico\round-yahoo64.png" />
     <Resource Include="skin\ico\toolbar_hover.png" />
     <Resource Include="skin\ico\toolbar_pushed.png" />
-    <Resource Include="skin\kk2.jpg" />
-    <Resource Include="skin\W_MAC256.png" />
+    <Resource Include="skin\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="360.ICO" />
