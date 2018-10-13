@@ -1,0 +1,42 @@
+﻿<html><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" /><META NAME="save" CONTENT="history" /><title xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">登录屏幕演示</title><META NAME="Description" CONTENT="此示例演示在通过 Windows Presentation Foundation (WPF) 技术生成的智能客户端应用程序中，ISV 如何使用不同的用户特定主题在登录屏幕上显示商标。 这些主题存储在以可扩展应用程序标记语言 (XAML) 编写的不同资源文件中。"></META><META NAME="MS.LOCALE" CONTENT="en-us" /><style>
+body
+{font-family:Verdana;font-size:medium;}
+div#mainSection, div#header
+{font-size:70%;width: 100%;}
+div#mainBody
+{font-size:90%;}
+div#mainSection div table
+{font-size: 100%;text-align: left;}
+span#nsrTitle
+{color:#003399;font-size:90%;font-weight:600;}
+div#header
+{background-color:#D4DFFF;}
+.heading
+{font-size:120%;color:#003399;}
+.subHeading
+{font-size:100%;margin-bottom:4;}
+li
+{margin-top:-2;margin-bottom:3;}
+p
+{margin-top:10;margin-bottom:5;}
+div.tableSection p
+{margin-top:1;margin-bottom:4;}	
+div#mainSection table th
+{background-color:#EFEFF7;color:#000066;text-align:left;}
+div#mainSection table td
+{background-color:#F7F7FF;}
+div#mainSection table
+{margin-top:5px;margin-bottom: px;}
+			</style></head><body><div id="header"><table width="100%" id="topTable"><tr id="headerTableRow2" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><td align="left"><span id="nsrTitle">登录屏幕演示</span></td></tr></table></div><div id="mainSection"><div id="mainBody"><br /><font color="DarkGray">[This readme is a partial copy of the sample's topic in the SDK documentation.]</font><br /><div class="introduction"><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">此示例演示在通过 Windows Presentation Foundation (WPF) 技术生成的智能客户端应用程序中，ISV 如何使用不同的用户特定主题在登录屏幕上显示商标。 这些主题存储在以可扩展应用程序标记语言 (XAML) 编写的不同资源文件中。</p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">此示例演示 Windows Presentation Foundation (WPF) 的特定功能，因此未遵循应用程序开发的最佳做法。 有关 Windows Presentation Foundation (WPF) 和 Microsoft .NET Framework 应用程序开发的最佳做法的全面介绍，请相应地参考以下主题：</p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">辅助功能 - 辅助功能最佳方案</p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">安全 - Windows Presentation Foundation 安全性</p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">本地化 - WPF 全球化和本地化概述</p></div><h1 class="heading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><span onclick="ExpandCollapse(sectionToggle0)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggle0, event)" tabindex="0">生成示例</span></h1><div id="sectionSection0" class="section"><ul xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>
+            安装 Windows 软件开发工具包 (SDK) 并打开其生成环境命令窗口。在“开始”菜单上，指向“所有程序”、“Microsoft Windows SDK”，然后单击“CMD Shell”。
+          </p></li><li><p>
+            将示例（通常位于软件开发工具包 (SDK) 文档中）下载到您的硬盘。
+          </p></li><li><p>
+            若要从生成环境命令窗口生成示例，请转到示例的源目录。在命令提示符处，键入 MSBUILD。
+          </p></li><li><p>
+            若要在 Microsoft Visual Studio 中生成示例，请加载示例解决方案或项目文件，然后按 Ctrl+Shift+B。
+          </p></li></ul></div><h1 class="heading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><span onclick="ExpandCollapse(sectionToggle1)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggle1, event)" tabindex="0">运行示例</span></h1><div id="sectionSection1" class="section"><ul xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>
+            若要从生成环境命令窗口运行已编译的示例，请执行示例源代码文件夹下包含的 Bin\Debug 或 Bin\Release 文件夹中的 .exe 文件。
+          </p></li><li><p>
+            若要在 Visual Studio 中调试运行已编译的示例，请按 F5。
+          </p></li></ul></div><h1 class="heading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0">请参见</span></h1><div id="seeAlsoSection" class="section"><h4 class="subHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">概念</h4><div class="seeAlsoStyle">样式设置和模板化</div><h4 class="subHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">参考</h4><div class="seeAlsoStyle">ControlTemplate</div><div class="seeAlsoStyle">DataTemplate</div></div></div></div></body></html>
