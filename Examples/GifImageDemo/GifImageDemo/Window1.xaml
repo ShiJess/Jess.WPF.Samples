@@ -1,0 +1,9 @@
+﻿<Window x:Class="GifImageDemo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gifLib="clr-namespace:GifImageLib;assembly=GifImageLib"
+    Title="Window1" Height="192" Width="260">
+    <Grid>
+        <gifLib:GifImage Source="OH.gif" Stretch="Uniform"/>
+    </Grid>
+</Window>
