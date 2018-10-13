@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convertHTML", "html2flow\convertHTML.csproj", "{E1F3F7A0-5FE8-447D-B2EE-065B770B0712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F3F7A0-5FE8-447D-B2EE-065B770B0712}.Debug|x86.ActiveCfg = Debug|x86
+		{E1F3F7A0-5FE8-447D-B2EE-065B770B0712}.Debug|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24EDAE0A-41CD-4E6D-BD03-D1338CBF85A1}
+	EndGlobalSection
+EndGlobal

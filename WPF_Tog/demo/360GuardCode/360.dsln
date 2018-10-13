@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DirectUI>
+    <SlnInfo Name="360" Author="" Company="" CreateDate="" Path="F:\360安全卫士DEMO\360.dsln" />
+    <Dui>
+        <Guid68956D401EE1476F94D0A89D0B151136 DuiName="360DEMO" DuiPath="F:\360安全卫士DEMO\360DEMO.dui">
+            <Guid168C2B828074409F83CE781436D4686C SknName="Default" SknPath="F:\360安全卫士DEMO\Default.skn" />
+        </Guid68956D401EE1476F94D0A89D0B151136>
+    </Dui>
+</DirectUI>
