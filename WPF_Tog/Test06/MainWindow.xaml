@@ -1,0 +1,17 @@
+﻿<Window x:Class="Test06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Test06"
+        Title="Test06" Height="450" Width="670" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="container">
+        <Grid.Background>
+            <ImageBrush ImageSource="beach.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+        <local:BusyDecorator x:Name="busyr" Cancel="busyr_Cancel" />
+        <Label Cursor="Hand" MouseUp="Label_MouseUp" Content="Click to work..." FontSize="20" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="20,0,0,40">
+            <Label.BitmapEffect>
+                <DropShadowBitmapEffect Direction="315" ShadowDepth="5" Softness="0.2" Opacity=".7" Color="Black" />
+            </Label.BitmapEffect>
+        </Label>
+    </Grid>
+</Window>
